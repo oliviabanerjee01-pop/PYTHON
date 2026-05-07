@@ -42,7 +42,7 @@ def total_by_category():
     for expense in Expenses:
         if expense["category"].lower()==category.lower():
             total2 = total2 + expense["amount"]
-            print(total2)
+    print(total2)
     
 
 def delete_expenses():
